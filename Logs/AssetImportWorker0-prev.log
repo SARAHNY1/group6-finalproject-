@@ -15,7 +15,7 @@ C:/Users/User/Desktop/group6-finalproject-
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62664
+56463
 Successfully changed project path to: C:/Users/User/Desktop/group6-finalproject-
 C:/Users/User/Desktop/group6-finalproject-
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/User/Desktop/group6-finalproject-
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [13960] Host "[IP] 158.132.53.155 [Port] 0 [Flags] 2 [Guid] 1405825866 [EditorId] 1405825866 [Version] 1048832 [Id] WindowsEditor(7,V915-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [13636] Host "[IP] 158.132.53.155 [Port] 0 [Flags] 2 [Guid] 1699506780 [EditorId] 1699506780 [Version] 1048832 [Id] WindowsEditor(7,V915-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [13960] Host "[IP] 158.132.53.155 [Port] 0 [Flags] 2 [Guid] 1405825866 [EditorId] 1405825866 [Version] 1048832 [Id] WindowsEditor(7,V915-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [13636] Host "[IP] 158.132.53.155 [Port] 0 [Flags] 2 [Guid] 1699506780 [EditorId] 1699506780 [Version] 1048832 [Id] WindowsEditor(7,V915-12) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 149.65 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.70 ms.
+Refreshing native plugins compatible for Editor in 140.27 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.41 ms.
 Initialize engine version: 2021.3.19f1 (c9714fde33b6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/group6-finalproject-/Assets
@@ -72,48 +72,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56468
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003408 seconds.
+Registered in 0.003561 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 173 ms
-Refreshing native plugins compatible for Editor in 133.28 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Android Extension - Scanning For ADB Devices 166 ms
+Refreshing native plugins compatible for Editor in 133.14 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.755 seconds
+- Completed reload, in  0.750 seconds
 Domain Reload Profiling:
-	ReloadAssembly (756ms)
-		BeginReloadAssembly (53ms)
+	ReloadAssembly (750ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (617ms)
-			LoadAssemblies (53ms)
+		EndReloadAssembly (612ms)
+			LoadAssemblies (54ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (89ms)
+			SetupTypeCache (91ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (22ms)
-			SetupLoadedEditorAssemblies (463ms)
+			SetupLoadedEditorAssemblies (456ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (225ms)
+				InitializePlatformSupportModulesInManaged (218ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (133ms)
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (70ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.008081 seconds.
+Registered in 0.008197 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -122,7 +122,7 @@ This message has been deprecated and will be removed in a later version of Unity
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 128.68 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 129.09 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -131,29 +131,29 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.82.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.263 seconds
+- Completed reload, in  1.229 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1263ms)
-		BeginReloadAssembly (87ms)
+	ReloadAssembly (1230ms)
+		BeginReloadAssembly (86ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (1087ms)
-			LoadAssemblies (77ms)
+		EndReloadAssembly (1053ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (289ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (103ms)
-			SetupLoadedEditorAssemblies (571ms)
+			RebuildScriptCaches (96ms)
+			SetupLoadedEditorAssemblies (564ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (129ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (313ms)
-				ProcessInitializeOnLoadMethodAttributes (23ms)
+				BeforeProcessingInitializeOnLoad (93ms)
+				ProcessInitializeOnLoadAttributes (306ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -163,12 +163,12 @@ Platform modules already initialized, skipping
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 1.45 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.04 ms.
-Unloading 6365 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 95 unused Assets / (139.4 KB). Loaded Objects now: 6792.
-Memory consumption went from 284.8 MB to 284.7 MB.
-Total: 4.027900 ms (FindLiveObjects: 0.517000 ms CreateObjectMapping: 0.565700 ms MarkObjects: 2.807100 ms  DeleteObjects: 0.137500 ms)
+Refreshing native plugins compatible for Editor in 1.40 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 6367 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 95 unused Assets / (147.0 KB). Loaded Objects now: 6797.
+Memory consumption went from 285.2 MB to 285.0 MB.
+Total: 4.012100 ms (FindLiveObjects: 0.519600 ms CreateObjectMapping: 0.571500 ms MarkObjects: 2.785500 ms  DeleteObjects: 0.134700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -182,99 +182,33 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 587476.377187 seconds.
-  path: Assets/Scene/test.unity
-  artifactKey: Guid(c659dc1c31628e74d92995fb3c8861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene/test.unity using Guid(c659dc1c31628e74d92995fb3c8861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c22ae359914cc7dd3955d60cc56dde') in 0.010159 seconds 
+  Time since last request: 589985.838496 seconds.
+  path: Assets/Plugins/Oculus/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png
+  artifactKey: Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Plugins/Oculus/ExampleAssets/Tutorial/Images/1-welcome-screen-image.png using Guid(11e34d76fce7843be984510eca5c9139) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc7e782ef059ece8abc3c67a1571b72d') in 0.049600 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 165.348941 seconds.
-  path: Assets/Resources/DOTweenSettings.asset
-  artifactKey: Guid(8f3af2685e98c1b4898faab141b0ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/DOTweenSettings.asset using Guid(8f3af2685e98c1b4898faab141b0ab01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5be28b086db3834e0e687e69cabc22') in 0.015990 seconds 
+  Time since last request: 0.000015 seconds.
+  path: Assets/Shader/Lighting/3Col.mat
+  artifactKey: Guid(45b5d6aefe0b9094095c4164e180a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Shader/Lighting/3Col.mat using Guid(45b5d6aefe0b9094095c4164e180a1ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d0967188ce82dd41f2fe1ca57ed6c2a') in 0.044475 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000014 seconds.
-  path: Assets/Resources/ONSPSettings.asset
-  artifactKey: Guid(390d543fd21134e4c936eb98b9c47518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/ONSPSettings.asset using Guid(390d543fd21134e4c936eb98b9c47518) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1cace11998423b7f34f71cca8a2f2c0') in 0.001836 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000016 seconds.
-  path: Assets/Resources/OVRPlatformToolSettings.asset
-  artifactKey: Guid(de786ae1179201346b089ab2f3a49df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Resources/OVRPlatformToolSettings.asset using Guid(de786ae1179201346b089ab2f3a49df9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9b3a4c9200fcf0850bb436be1ffb38f') in 0.002230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.360516 seconds.
-  path: Assets/Oculus/OculusProjectConfig.asset
-  artifactKey: Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/OculusProjectConfig.asset using Guid(e94a179a2a4b33e4bbf58c6c97172b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a0ceadcefa4d9948699df58537fa465') in 0.002408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.449173 seconds.
-  path: Assets/Model/220106-all.fbx
-  artifactKey: Guid(2fb736b3ffbd10b48a6014464df7f0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/220106-all.fbx using Guid(2fb736b3ffbd10b48a6014464df7f0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c55126a550f9c02a399032e13a06f3') in 0.474566 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Model/skybox.obj
-  artifactKey: Guid(582b163ac02b0d841be5b7e276946f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/skybox.obj using Guid(582b163ac02b0d841be5b7e276946f26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7007ea182d8d80aed47d5a6f9ff513') in 0.013869 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Model/frame.fbx
-  artifactKey: Guid(bfc42f74a1ba6a442b984769c7930dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/frame.fbx using Guid(bfc42f74a1ba6a442b984769c7930dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b5c22f51f01c2ec2201eb59bb6e3d6') in 0.078104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/BOX.fbx
-  artifactKey: Guid(f293ec1a20006784ba0a92ddf0844dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/BOX.fbx using Guid(f293ec1a20006784ba0a92ddf0844dc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b44d9b99ed437f95ae9adc87d7beafcc') in 0.038432 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000013 seconds.
-  path: Assets/Model/JelleyFish.fbx
-  artifactKey: Guid(dd3400c76eb79f94d8d240a9b6f77031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/JelleyFish.fbx using Guid(dd3400c76eb79f94d8d240a9b6f77031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8ae0e68dd9f55a9d3ae0cad578d6a9') in 0.019752 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000012 seconds.
-  path: Assets/Model/monkey.fbx
-  artifactKey: Guid(ea714ab5ed67f8145985f961e7b23343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Model/monkey.fbx using Guid(ea714ab5ed67f8145985f961e7b23343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '543bebff8b9253768891c3cffec0052a') in 0.008169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.559996 seconds.
-  path: Assets/Poly_Workshop Development Pack/DemoScene
-  artifactKey: Guid(3009f277b39c03449a0d6f38e06cd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly_Workshop Development Pack/DemoScene using Guid(3009f277b39c03449a0d6f38e06cd6d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8e70a34261fe0259846c9660cfab567') in 0.001305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.919297 seconds.
-  path: Assets/Poly_Workshop Development Pack/DemoScene/Count Down Sample.unity
-  artifactKey: Guid(09b1f532b0b02a84489fdc11595aa707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Poly_Workshop Development Pack/DemoScene/Count Down Sample.unity using Guid(09b1f532b0b02a84489fdc11595aa707) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '669cfb90d51f0db52af94502b250a6a9') in 0.001471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.615693 seconds.
-  path: Assets/Scene/test.unity
-  artifactKey: Guid(c659dc1c31628e74d92995fb3c8861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scene/test.unity using Guid(c659dc1c31628e74d92995fb3c8861fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '893b2828a3fc4a57839e3d973cd7d1eb') in 0.001117 seconds 
+  path: Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX
+  artifactKey: Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Oculus/SampleFramework/Usage/HandsTrainExample/Models/TrainPalette.FBX using Guid(bd0bb729cb6159b4ab21c5f62cad24ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2348e131d58ca8ff510cf64cb64dc0d') in 0.468195 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007765 seconds.
+Registered in 0.007819 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.57 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
+Refreshing native plugins compatible for Editor in 2.27 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -286,28 +220,28 @@ Preloading 1 native plugins for Editor in 0.06 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
+- Completed reload, in  0.970 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1066ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (970ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (883ms)
-			LoadAssemblies (72ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (73ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (443ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (345ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (20ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (70ms)
-				ProcessInitializeOnLoadAttributes (328ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (237ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -318,12 +252,12 @@ OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 7.04 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 7.10 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 6027 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (114.0 KB). Loaded Objects now: 6841.
-Memory consumption went from 257.2 MB to 257.1 MB.
-Total: 3.563200 ms (FindLiveObjects: 0.472000 ms CreateObjectMapping: 0.396700 ms MarkObjects: 2.582600 ms  DeleteObjects: 0.111100 ms)
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (114.0 KB). Loaded Objects now: 6847.
+Memory consumption went from 257.7 MB to 257.6 MB.
+Total: 3.120200 ms (FindLiveObjects: 0.433200 ms CreateObjectMapping: 0.378100 ms MarkObjects: 2.210600 ms  DeleteObjects: 0.097600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -338,14 +272,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007898 seconds.
+Registered in 0.007896 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.08 ms.
+Refreshing native plugins compatible for Editor in 1.48 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -355,28 +289,28 @@ Preloading 1 native plugins for Editor in 0.08 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.966 seconds
+- Completed reload, in  0.968 seconds
 Domain Reload Profiling:
-	ReloadAssembly (966ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (33ms)
 		EndReloadAssembly (786ms)
-			LoadAssemblies (72ms)
+			LoadAssemblies (74ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (263ms)
+			SetupTypeCache (268ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (347ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (342ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
+				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (239ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (237ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -387,12 +321,12 @@ OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 8.38 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 7.55 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 6027 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (114.2 KB). Loaded Objects now: 6845.
-Memory consumption went from 257.3 MB to 257.1 MB.
-Total: 3.505800 ms (FindLiveObjects: 0.515300 ms CreateObjectMapping: 0.506100 ms MarkObjects: 2.366200 ms  DeleteObjects: 0.117400 ms)
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (114.1 KB). Loaded Objects now: 6851.
+Memory consumption went from 257.7 MB to 257.6 MB.
+Total: 3.263600 ms (FindLiveObjects: 0.453500 ms CreateObjectMapping: 0.393000 ms MarkObjects: 2.312400 ms  DeleteObjects: 0.104200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -407,13 +341,13 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007953 seconds.
+Registered in 0.007900 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 2.30 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 1.65 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.09 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -424,29 +358,29 @@ Preloading 1 native plugins for Editor in 0.09 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.978 seconds
+- Completed reload, in  0.969 seconds
 Domain Reload Profiling:
-	ReloadAssembly (979ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (969ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (793ms)
-			LoadAssemblies (73ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (787ms)
+			LoadAssemblies (75ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (265ms)
+			SetupTypeCache (267ms)
 			ReleaseScriptCaches (3ms)
 			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (350ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (63ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -456,12 +390,12 @@ OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.73 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 6.77 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
-Unloading 6027 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (106.3 KB). Loaded Objects now: 6849.
-Memory consumption went from 257.3 MB to 257.2 MB.
-Total: 3.400600 ms (FindLiveObjects: 0.522800 ms CreateObjectMapping: 0.389200 ms MarkObjects: 2.378900 ms  DeleteObjects: 0.108700 ms)
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (114.2 KB). Loaded Objects now: 6855.
+Memory consumption went from 257.7 MB to 257.6 MB.
+Total: 3.308400 ms (FindLiveObjects: 0.448600 ms CreateObjectMapping: 0.496600 ms MarkObjects: 2.256700 ms  DeleteObjects: 0.105700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -476,14 +410,14 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007887 seconds.
+Registered in 0.007777 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 16 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 1.69 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
@@ -493,44 +427,44 @@ Preloading 1 native plugins for Editor in 0.05 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.041 seconds
+- Completed reload, in  0.973 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1042ms)
-		BeginReloadAssembly (120ms)
+	ReloadAssembly (973ms)
+		BeginReloadAssembly (111ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (841ms)
-			LoadAssemblies (100ms)
+			CreateAndSetChildDomain (31ms)
+		EndReloadAssembly (788ms)
+			LoadAssemblies (84ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (62ms)
-			SetupLoadedEditorAssemblies (341ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (343ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (19ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (61ms)
+				BeforeProcessingInitializeOnLoad (63ms)
 				ProcessInitializeOnLoadAttributes (236ms)
-				ProcessInitializeOnLoadMethodAttributes (21ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 OnLevelWasLoaded was found on DOTweenComponent
 This message has been deprecated and will be removed in a later version of Unity.
 Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 6.62 ms, found 16 plugins.
+Refreshing native plugins compatible for Editor in 6.53 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (114.1 KB). Loaded Objects now: 6855.
-Memory consumption went from 257.4 MB to 257.2 MB.
-Total: 4.147400 ms (FindLiveObjects: 0.584100 ms CreateObjectMapping: 0.449000 ms MarkObjects: 2.990900 ms  DeleteObjects: 0.122700 ms)
+Unloading 85 unused Assets / (114.1 KB). Loaded Objects now: 6859.
+Memory consumption went from 257.8 MB to 257.7 MB.
+Total: 3.973500 ms (FindLiveObjects: 0.555500 ms CreateObjectMapping: 0.603600 ms MarkObjects: 2.697000 ms  DeleteObjects: 0.116800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -545,7 +479,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.007759 seconds.
+Registered in 0.007798 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
@@ -562,28 +496,97 @@ Preloading 1 native plugins for Editor in 0.04 ms.
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  0.951 seconds
+- Completed reload, in  0.990 seconds
 Domain Reload Profiling:
-	ReloadAssembly (951ms)
-		BeginReloadAssembly (108ms)
+	ReloadAssembly (991ms)
+		BeginReloadAssembly (115ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (769ms)
-			LoadAssemblies (76ms)
+			CreateAndSetChildDomain (37ms)
+		EndReloadAssembly (800ms)
+			LoadAssemblies (77ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (57ms)
-			SetupLoadedEditorAssemblies (341ms)
+			SetupTypeCache (275ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (344ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (236ms)
+				BeforeProcessingInitializeOnLoad (63ms)
+				ProcessInitializeOnLoadAttributes (237ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.61 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (114.1 KB). Loaded Objects now: 6863.
+Memory consumption went from 257.8 MB to 257.7 MB.
+Total: 3.348800 ms (FindLiveObjects: 0.438400 ms CreateObjectMapping: 0.400400 ms MarkObjects: 2.402400 ms  DeleteObjects: 0.106700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007806 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.76 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.06 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.998 seconds
+Domain Reload Profiling:
+	ReloadAssembly (998ms)
+		BeginReloadAssembly (107ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (813ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (285ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (349ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (244ms)
 				ProcessInitializeOnLoadMethodAttributes (20ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
@@ -597,9 +600,9 @@ Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 6.60 ms, found 16 plugins.
 Preloading 1 native plugins for Editor in 0.03 ms.
 Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 85 unused Assets / (106.3 KB). Loaded Objects now: 6859.
-Memory consumption went from 257.4 MB to 257.3 MB.
-Total: 3.261200 ms (FindLiveObjects: 0.430200 ms CreateObjectMapping: 0.394100 ms MarkObjects: 2.329200 ms  DeleteObjects: 0.107000 ms)
+Unloading 85 unused Assets / (114.1 KB). Loaded Objects now: 6867.
+Memory consumption went from 257.8 MB to 257.7 MB.
+Total: 3.407200 ms (FindLiveObjects: 0.456300 ms CreateObjectMapping: 0.457000 ms MarkObjects: 2.385900 ms  DeleteObjects: 0.107400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -611,4 +614,72 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=10054 error=An existing connection was forcibly closed by the remote host.
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007826 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\group6-finalproject-\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.48 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  0.980 seconds
+Domain Reload Profiling:
+	ReloadAssembly (981ms)
+		BeginReloadAssembly (113ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (792ms)
+			LoadAssemblies (72ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (277ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (59ms)
+			SetupLoadedEditorAssemblies (343ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (60ms)
+				ProcessInitializeOnLoadAttributes (238ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+OnLevelWasLoaded was found on DOTweenComponent
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.68 ms, found 16 plugins.
+Preloading 1 native plugins for Editor in 0.03 ms.
+Unloading 6029 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 85 unused Assets / (113.9 KB). Loaded Objects now: 6871.
+Memory consumption went from 257.8 MB to 257.7 MB.
+Total: 3.666900 ms (FindLiveObjects: 0.495900 ms CreateObjectMapping: 0.485100 ms MarkObjects: 2.569600 ms  DeleteObjects: 0.115600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
