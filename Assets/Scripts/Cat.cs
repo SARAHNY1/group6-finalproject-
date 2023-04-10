@@ -4,6 +4,15 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
+using System;
+
+using System.Linq;
+using UnityEngine.Assertions;
+using UnityEngine.EventSystems;
+using UnityEngine.InputSystem;
+using UnityEngine.XR.Interaction.Toolkit.UI;
+using Unity.XR.CoreUtils;
+
 public class Cat : MonoBehaviour
 {
     public float speed;
@@ -42,7 +51,7 @@ public class Cat : MonoBehaviour
     void Update()
     {
         //QE控制走向
-        if (Input.GetKey(KeyCode.Q))
+        if (Input.GetAxisRaw("XRI_Right_SecondaryButton") >0f)
         {
             if (isZ)
             {
@@ -51,7 +60,7 @@ public class Cat : MonoBehaviour
             else
                 transform.Translate(transform.forward * -1f * speed * Time.deltaTime);
         }
-        else if (Input.GetKey(KeyCode.E))
+        else if (Input.GetAxisRaw("XRI_Right_PrimaryButton") > 0f)
         {
             if (isZ)
             {
@@ -68,7 +77,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if (Input.GetKeyDown(KeyCode.V))
+                if ((Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f))
                 {
                     transform.position = targetPos1;
                     //调整猫位移后的朝向
@@ -83,7 +92,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue2(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if (Input.GetKeyDown(KeyCode.V))
+                if (Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f)
                 {
                     transform.position = targetPos2;
                     transform.eulerAngles = new Vector3(0, -90, 0);
@@ -98,7 +107,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue3(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if (Input.GetKeyDown(KeyCode.V))
+                if ((Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f))
                 {
                     transform.position = targetPos3;
                     transform.eulerAngles = new Vector3(0, 0, 0);
@@ -121,7 +130,7 @@ public class Cat : MonoBehaviour
             print("Pos");
             if ( (e.y < (euler1.y + 15f)) && (e.y > (euler1.y - 15f)))
             {
-                HintText.text = "press V to move the cat";
+                HintText.text = "press X to move the cat";
                 print("View");
                 return true;
             }
@@ -144,7 +153,7 @@ public class Cat : MonoBehaviour
             if ( (e.x < (euler2.x + 15f)) && (e.x > (euler2.x - 15f)))
             {
                 print("View");
-                HintText.text = "press V";
+                HintText.text = "press X";
                 return true;
             }
         }
@@ -165,7 +174,7 @@ public class Cat : MonoBehaviour
             if ((e.x < (euler3.x + 15f)) && (e.x > (euler3.x - 15f)))
             {
                 print("View");
-                HintText.text = "press V";
+                HintText.text = "press X";
                 return true;
             }
         }
