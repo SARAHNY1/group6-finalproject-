@@ -4,15 +4,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using DG.Tweening;
 
-using System;
-
-using System.Linq;
-using UnityEngine.Assertions;
-using UnityEngine.EventSystems;
-using UnityEngine.InputSystem;
-using UnityEngine.XR.Interaction.Toolkit.UI;
-using Unity.XR.CoreUtils;
-
 public class Cat : MonoBehaviour
 {
     public float speed;
@@ -51,7 +42,7 @@ public class Cat : MonoBehaviour
     void Update()
     {
         //QE控制走向
-        if (Input.GetAxisRaw("XRI_Right_SecondaryButton") >0f)
+        if (Input.GetAxisRaw("XRI_Right_SecondaryButton") > 0f)
         {
             if (isZ)
             {
@@ -77,7 +68,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if ((Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f))
+                if (Input.GetKeyDown(KeyCode.V))
                 {
                     transform.position = targetPos1;
                     //调整猫位移后的朝向
@@ -92,7 +83,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue2(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if (Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f)
+                if (Input.GetKeyDown(KeyCode.V))
                 {
                     transform.position = targetPos2;
                     transform.eulerAngles = new Vector3(0, -90, 0);
@@ -107,7 +98,7 @@ public class Cat : MonoBehaviour
         {
             if (posAndrotIsTrue3(player.transform.position, Camera.main.transform.eulerAngles))
             {
-                if ((Input.GetAxisRaw("XRI_Left_PrimaryButton") > 0f))
+                if (Input.GetKeyDown(KeyCode.V))
                 {
                     transform.position = targetPos3;
                     transform.eulerAngles = new Vector3(0, 0, 0);
@@ -128,9 +119,9 @@ public class Cat : MonoBehaviour
         {
             HintText.text = "Walk around :)";
             print("Pos");
-            if ( (e.y < (euler1.y + 15f)) && (e.y > (euler1.y - 15f)))
+            if ((e.y < (euler1.y + 15f)) && (e.y > (euler1.y - 15f)))
             {
-                HintText.text = "press X to move the cat";
+                HintText.text = "press V to move the cat";
                 print("View");
                 return true;
             }
@@ -146,14 +137,14 @@ public class Cat : MonoBehaviour
     {
         print("正在判定");
         //if ((p.x < (pos2.x + 2)) && (p.x > (pos2.x - 2)) && (p.z < (pos2.z + 2)) && (p.z > (pos2.z - 2)))
-        if (CircleDistance(p,pos2,2))
+        if (CircleDistance(p, pos2, 2))
         {
             print("Pos2");
             HintText.text = "Walk around :)";
-            if ( (e.x < (euler2.x + 15f)) && (e.x > (euler2.x - 15f)))
+            if ((e.x < (euler2.x + 15f)) && (e.x > (euler2.x - 15f)))
             {
                 print("View");
-                HintText.text = "press X";
+                HintText.text = "press V";
                 return true;
             }
         }
@@ -174,7 +165,7 @@ public class Cat : MonoBehaviour
             if ((e.x < (euler3.x + 15f)) && (e.x > (euler3.x - 15f)))
             {
                 print("View");
-                HintText.text = "press X";
+                HintText.text = "press V";
                 return true;
             }
         }
@@ -208,7 +199,7 @@ public class Cat : MonoBehaviour
         }
         if (collision.gameObject.tag == "444")
         {
-            fbx.transform.DORotate(new Vector3(0,-90,90), 0.1f);
+            fbx.transform.DORotate(new Vector3(0, -90, 90), 0.1f);
             transform.DORotate(new Vector3(0, 270, 0), 1f);
             transform.position = rotatePos2;
             Destroy(collision.gameObject);
