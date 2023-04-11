@@ -9,7 +9,7 @@ public class Cat : MonoBehaviour
     public float speed;
     public GameObject fbx;
     GameObject player;
-    //×Ô¶¨Òå¶à´ÎÎ»ÒÆÄ¿±êÎ»ÖÃºÍÅÐ¶¨·¶Î§
+    //ï¿½Ô¶ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½Ä¿ï¿½ï¿½Î»ï¿½Ãºï¿½ï¿½Ð¶ï¿½ï¿½ï¿½Î§
     public Vector3 pos1;
     public Vector3 euler1;
     public Vector3 targetPos1;
@@ -22,12 +22,14 @@ public class Cat : MonoBehaviour
     bool trans1;
     bool trans2;
     bool trans3;
-    //ÊÇ·ñÐý×ª
+    //ï¿½Ç·ï¿½ï¿½ï¿½×ª
     bool isZ;
     public Vector3 rotatePos1;
     public Vector3 rotatePos2;
 
     public Text HintText;
+
+    private Animation anim;
 
     void Start()
     {
@@ -36,20 +38,24 @@ public class Cat : MonoBehaviour
         trans1 = false;
         trans2 = false;
         isZ = false;
+        anim = gameObject.GetComponent<Animation>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //QE¿ØÖÆ×ßÏò
+        //QEï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
         if (Input.GetAxisRaw("XRI_Right_SecondaryButton") > 0f)
         {
+            //anim.Play("cu_cat@A_walk");
             if (isZ)
             {
                 transform.Translate(transform.right * -1f * speed * Time.deltaTime);
+                anim.Play("cu_cat@A_walk");
             }
             else
                 transform.Translate(transform.forward * -1f * speed * Time.deltaTime);
+                anim.Play("cu_cat@A_walk");
         }
         else if (Input.GetAxisRaw("XRI_Right_PrimaryButton") > 0f)
         {
@@ -60,60 +66,60 @@ public class Cat : MonoBehaviour
             else
                 transform.Translate(transform.forward * 1f * speed * Time.deltaTime);
         }
-        //µ÷ÊÔÍæ¼ÒÎ»ÖÃÊÓ½ÇºÍÃ¨µÄÎ»ÖÃ
+        //ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Î»ï¿½ï¿½ï¿½Ó½Çºï¿½Ã¨ï¿½ï¿½Î»ï¿½ï¿½
         if (Input.GetMouseButtonDown(0))
-            print("Íæ¼ÒÎ»ÖÃ£º" + player.transform.position + "Íæ¼ÒÊÓ½Ç£º" + Camera.main.transform.eulerAngles + "CatÎ»ÖÃ" + transform.position);
-        //Î»ÒÆ
-        if (trans1)
-        {
-            if (posAndrotIsTrue(player.transform.position, Camera.main.transform.eulerAngles))
-            {
-                if (Input.GetKeyDown(KeyCode.V))
-                {
-                    transform.position = targetPos1;
-                    //µ÷ÕûÃ¨Î»ÒÆºóµÄ³¯Ïò
-                    transform.eulerAngles = new Vector3(0, 90, 0);
-                    trans1 = false;
-                    isZ = true;
-                    HintText.text = "";
-                }
-            }
-        }
-        if (trans2)
-        {
-            if (posAndrotIsTrue2(player.transform.position, Camera.main.transform.eulerAngles))
-            {
-                if (Input.GetKeyDown(KeyCode.V))
-                {
-                    transform.position = targetPos2;
-                    transform.eulerAngles = new Vector3(0, -90, 0);
-                    trans2 = false;
-                    isZ = true;
-                    HintText.text = "";
+            print("ï¿½ï¿½ï¿½Î»ï¿½Ã£ï¿½" + player.transform.position + "ï¿½ï¿½ï¿½ï¿½Ó½Ç£ï¿½" + Camera.main.transform.eulerAngles + "CatÎ»ï¿½ï¿½" + transform.position);
+        //Î»ï¿½ï¿½
+//        if (trans1)
+//        {
+//            if (posAndrotIsTrue(player.transform.position, Camera.main.transform.eulerAngles))
+//            {
+//                if (Input.GetKeyDown(KeyCode.V))
+//                {
+//                    transform.position = targetPos1;
+//                    //ï¿½ï¿½ï¿½ï¿½Ã¨Î»ï¿½Æºï¿½Ä³ï¿½ï¿½ï¿½
+//                    transform.eulerAngles = new Vector3(0, 90, 0);
+//                    trans1 = false;
+//                    isZ = true;
+//                    HintText.text = "";
+//                }
+//            }
+//        }
+//        if (trans2)
+//       {
+//            if (posAndrotIsTrue2(player.transform.position, Camera.main.transform.eulerAngles))
+//            {
+//                if (Input.GetKeyDown(KeyCode.V))
+//                {
+//                    transform.position = targetPos2;
+//                   transform.eulerAngles = new Vector3(0, -90, 0);
+//                    trans2 = false;
+//                    isZ = true;
+//                   HintText.text = "";
 
-                }
-            }
-        }
-        if (trans3)
-        {
-            if (posAndrotIsTrue3(player.transform.position, Camera.main.transform.eulerAngles))
-            {
-                if (Input.GetKeyDown(KeyCode.V))
-                {
-                    transform.position = targetPos3;
-                    transform.eulerAngles = new Vector3(0, 0, 0);
-                    trans3 = false;
-                    isZ = false;
-                    HintText.text = "";
-
-                }
-            }
-        }
+//                }
+//            }
+//        }
+//        if (trans3)
+//        {
+//            if (posAndrotIsTrue3(player.transform.position, Camera.main.transform.eulerAngles))
+//            {
+//                if (Input.GetKeyDown(KeyCode.V))
+//                {
+//                    transform.position = targetPos3;
+//                    transform.eulerAngles = new Vector3(0, 0, 0);
+//                    trans3 = false;
+//                    isZ = false;
+//                    HintText.text = "";
+//
+//                }
+//            }
+//        }
 
     }
     bool posAndrotIsTrue(Vector3 p, Vector3 e)
     {
-        print("ÕýÔÚÅÐ¶¨");
+        print("ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½");
         //if ((p.x < (pos.x + 2)) && (p.x > (pos.x - 2)) && (p.z < (pos.z + 2)) && (p.z > (pos.z - 2)))
         if (CircleDistance(p, pos1, 2))
         {
@@ -135,7 +141,7 @@ public class Cat : MonoBehaviour
     }
     bool posAndrotIsTrue2(Vector3 p, Vector3 e)
     {
-        print("ÕýÔÚÅÐ¶¨");
+        print("ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½");
         //if ((p.x < (pos2.x + 2)) && (p.x > (pos2.x - 2)) && (p.z < (pos2.z + 2)) && (p.z > (pos2.z - 2)))
         if (CircleDistance(p, pos2, 2))
         {
@@ -157,7 +163,7 @@ public class Cat : MonoBehaviour
     }
     bool posAndrotIsTrue3(Vector3 p, Vector3 e)
     {
-        print("ÕýÔÚÅÐ¶¨");
+        print("ï¿½ï¿½ï¿½ï¿½ï¿½Ð¶ï¿½");
         if (CircleDistance(p, pos3, 2))
         {
             print("Pos3");
@@ -177,25 +183,35 @@ public class Cat : MonoBehaviour
         return false;
     }
 
-    //Ðý×ªÓëÎ»ÒÆµÄÅö×²¼ì²â
+    //ï¿½ï¿½×ªï¿½ï¿½Î»ï¿½Æµï¿½ï¿½ï¿½×²ï¿½ï¿½ï¿½
     private void OnCollisionEnter(Collision collision)
     {
         if (collision.gameObject.tag == "111")
         {
-            //µ÷ÕûboxµÄÐý×ª·½Ïò
+            //ï¿½ï¿½ï¿½ï¿½boxï¿½ï¿½ï¿½ï¿½×ªï¿½ï¿½ï¿½ï¿½
             fbx.transform.DORotate(new Vector3(-90, 0, 0), 1f);
-            //µ÷ÕûÃ¨Ðý×ªºóµÄ³¯Ïò
+            //ï¿½ï¿½ï¿½ï¿½Ã¨ï¿½ï¿½×ªï¿½ï¿½Ä³ï¿½ï¿½ï¿½
             transform.DORotate(new Vector3(0, 180, 0), 1f);
             Destroy(collision.gameObject);
             Camera.main.transform.localPosition = new Vector3(0, 0.7f, 0);
+            //fbx.transform.position = new Vector3(0f, 0f, 0f);
         }
         if (collision.gameObject.tag == "222")
         {
-            trans1 = true;
+            transform.position = targetPos1;
+            //ï¿½ï¿½ï¿½ï¿½Ã¨Î»ï¿½Æºï¿½Ä³ï¿½ï¿½ï¿½
+            transform.eulerAngles = new Vector3(0, 90, 0);
+            trans1 = false;
+            isZ = true;
+            HintText.text = "";
         }
         if (collision.gameObject.tag == "333")
         {
-            trans2 = true;
+            transform.position = targetPos2;
+            transform.eulerAngles = new Vector3(0, -90, 0);
+            trans2 = false;
+            isZ = true;
+            HintText.text = "";
         }
         if (collision.gameObject.tag == "444")
         {
@@ -207,7 +223,11 @@ public class Cat : MonoBehaviour
         }
         if (collision.gameObject.tag == "555")
         {
-            trans3 = true;
+                                transform.position = targetPos3;
+                                transform.eulerAngles = new Vector3(0, 0, 0);
+                                trans3 = false;
+                               isZ = false;
+                                HintText.text = "";
         }
     }
     public bool CircleDistance(Vector3 attacked, Vector3 skillPosition, float radius)

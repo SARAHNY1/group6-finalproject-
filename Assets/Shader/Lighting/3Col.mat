@@ -14,7 +14,7 @@ Material:
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 3000
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -27,7 +27,7 @@ Material:
     m_Ints: []
     m_Floats: []
     m_Colors:
-    - _EnvDownCol: {r: 0.40923816, g: 0.61421466, b: 0.7830189, a: 1}
-    - _EnvSideCol: {r: 0.27212533, g: 0.37267873, b: 0.46226418, a: 1}
-    - _EnvUpCol: {r: 0.4056604, g: 0.12016731, b: 0.12016731, a: 1}
+    - _EnvDownCol: {r: 0.40923813, g: 0.61421466, b: 0.7830188, a: 0}
+    - _EnvSideCol: {r: 0.2721253, g: 0.37267867, b: 0.46226412, a: 0}
+    - _EnvUpCol: {r: 0.40566036, g: 0.12016728, b: 0.12016728, a: 0}
   m_BuildTextureStacks: []
